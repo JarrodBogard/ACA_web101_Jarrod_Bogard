@@ -35,13 +35,7 @@ h1 {
     grid-row: 2/3;
 }
 
-h2 {
-    color: #383F78;
-    margin: 0;
-    padding: 0;
-}
-
-h3 {
+h2, h3 {
     color: #383F78;
     margin: 0;
     padding: 0;
@@ -134,7 +128,7 @@ ul {
 
 .flex-container-6 p {
     color:#E8FFDE ;
-    margin: 0 0 120px 0;
+    margin: 0 0 100px 0;
 }
 
 .flex-container-6 h2 {
@@ -147,6 +141,23 @@ ul {
     margin: 10px 0 2px 0px;
 }
 
+/* .links   {
+    display: flex;
+    
+    justify-content: space-around;
+    background-color: #383F78;
+}
+
+a {
+
+    width: 50px;
+    padding: 5px 5px 10px 5px;
+}
+
+a > img {
+    border-radius: 50%;
+    border: 2px solid #E8FFDE;
+} */
 
 
 
