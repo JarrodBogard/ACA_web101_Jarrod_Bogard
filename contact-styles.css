@@ -1,0 +1,44 @@
+body {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.contact-form {
+    display: flex;
+    flex-direction: column;
+    max-width: 500px;
+    margin: 2rem auto;
+    border: 2px solid lightcoral;
+    padding: 2rem;
+    border-radius: 5px;
+}
+
+label {
+    display: block;
+    padding: .5rem 0;
+    text-transform: uppercase;
+    font-size: 14px;
+}
+
+input, textarea {
+    display: block;
+    width: 100%;
+    border: 1px solid lightseagreen;
+    padding: .25rem;
+    border-radius: 5px;
+}
+
+#submit {
+    width: 5rem;
+    margin: 1rem 0;
+    border: 0;
+    background-color: lightslategray;
+    padding: 1rem;
+    color: lightsalmon;
+    text-transform: uppercase;
+    cursor: pointer;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+#submit:hover {
+    background-color: lightskyblue;
+}
