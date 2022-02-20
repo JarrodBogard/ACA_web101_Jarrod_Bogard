@@ -13,19 +13,45 @@ body {
 }
 
 label {
-    display: block;
+    /* display: block; */
     padding: .5rem 0;
     text-transform: uppercase;
     font-size: 14px;
 }
 
 input, textarea {
-    display: block;
+    /* display: block; */
     width: 100%;
     border: 1px solid lightseagreen;
     padding: .25rem;
     border-radius: 5px;
 }
+
+span {
+    margin: .5rem 0;
+    font-size: 16;
+}
+
+.checkboxes label {
+    display: inline-block;
+    font-size: 14px;
+}
+
+.checkboxes input {
+    display: inline-block;
+    width: 2%;
+    font-size: 14px;
+}
+
+.radio label {
+    display: inline-block;
+}
+
+.radio input {
+    display: inline-block;
+    width: 2%;
+}
+
 
 #submit {
     width: 5rem;
