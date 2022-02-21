@@ -1,29 +1,53 @@
 body {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: lightgrey;
+    margin: 0;
+}
+
+
+img {
+    width: 100%;
+    max-width: 100%;
+    height: 250px;
+    margin: 0;
+    padding: 0;
 }
 
 .contact-form {
     display: flex;
     flex-direction: column;
-    max-width: 500px;
-    margin: 2rem auto;
+    background-color: ;
+    width: 500px;
+    max-width: 100%;
+    margin: 0 auto 0 auto;
     border: 2px solid lightcoral;
-    padding: 2rem;
+    border-bottom: 0;
+    padding: 0 2rem 2rem 2rem;
     border-radius: 5px;
 }
 
 label {
-    /* display: block; */
     padding: .5rem 0;
     text-transform: uppercase;
     font-size: 14px;
 }
 
 input, textarea {
-    /* display: block; */
-    width: 100%;
+    /* width: 100%; */
     border: 1px solid lightseagreen;
     padding: .25rem;
+    border-radius: 5px;
+}
+
+.contact-form2 {
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+    max-width: 100%;
+    margin: -2rem auto 2rem auto;
+    border: 2px solid lightcoral;
+    border-top: 0;
+    padding: 2rem;
     border-radius: 5px;
 }
 
@@ -31,27 +55,6 @@ span {
     margin: .5rem 0;
     font-size: 16;
 }
-
-.checkboxes label {
-    display: inline-block;
-    font-size: 14px;
-}
-
-.checkboxes input {
-    display: inline-block;
-    width: 2%;
-    font-size: 14px;
-}
-
-.radio label {
-    display: inline-block;
-}
-
-.radio input {
-    display: inline-block;
-    width: 2%;
-}
-
 
 #submit {
     width: 5rem;
@@ -68,3 +71,42 @@ span {
 #submit:hover {
     background-color: lightskyblue;
 }
+
+@media (max-width: 600px) {
+    .contact-form, .contact-form2 {
+        width:75% ;
+        max-width: 100%;
+    }
+
+    .contact-form2 input {
+        display: flex;
+        flex-direction: column;
+    }
+
+}
+
+
+
+
+
+
+
+/* .checkboxes label {
+    display: inline-block;
+    font-size: 14px;
+}
+
+.checkboxes input {
+    display: inline-block;
+    width: 2%;
+    font-size: 14px;
+} */
+
+/* .radio label {
+    display: inline-block;
+}
+
+.radio input {
+    display: inline-block;
+    width: 2%;
+} */
